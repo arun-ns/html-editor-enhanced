@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   # webview plugin
-  flutter_inappwebview: ^5.4.3+7
+#  flutter_inappwebview: ^5.4.3+7
   # plugin to get webview's visible fraction for keyboard height adjustment
   visibility_detector: ^0.3.3
   # plugin to get when the keyboard is hidden via back (Android)
@@ -30,6 +30,10 @@ dependencies:
   pointer_interceptor: ^0.9.1
   # plugin to help maintain effective Dart standards
   pedantic: ^1.11.1
+  flutter_inappwebview:
+    git:
+      url: https://github.com/CodeEagle/flutter_inappwebview
+      ref: master
   # plugin for @internal annotation
   meta: '>=1.0.0 <2.0.0'
 
